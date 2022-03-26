@@ -279,11 +279,7 @@ end)
                 }):Play()
             end)
 
-            TextButton.MouseLeave:Connect(function()
-                game.TweenService:Create(TextButton, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(31,31,31) 
-                }):Play()
-            end)
+
 
             UICorner.CornerRadius = UDim.new(0, 5)
             UICorner.Parent = TextButton
