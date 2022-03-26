@@ -183,6 +183,7 @@ end)
 		newPage.Size = UDim2.new(0, 408, 0, 364)
 		newPage.CanvasSize = UDim2.new(0, 0, 3, 4)
 		newPage.ScrollBarThickness = 6
+		newPage.Visible = false
 
 		ElementsListing.Name = "ElementsListing"
 		ElementsListing.Parent = newPage
